@@ -6,7 +6,7 @@ p{
     height: 96px;
     text-align: center;
     font-size: 64px;
-    background-color: grey;
+    background-color: dodgerblue;
     display:flex;
     vertical-align:middle;
     align-items:center;
@@ -16,7 +16,7 @@ p{
     height: 96px;
     text-align: center;
     font-size: 32px;
-    background-color: grey;
+    background-color: dodgerblue;
     display: flex;
     vertical-align: middle;
     align-items: center;
@@ -43,12 +43,7 @@ a:hover{
     color:black;
     text-decoration: none;
 }
-#navLogo{
-    color:black;
-}
-#navLogo:hover{
-    color: darkgrey;
-}
+
 
 #title {
     text-align: left;
@@ -57,4 +52,5 @@ a:hover{
     padding-bottom: 8px;
     background-color: white;
     border-bottom: 2px solid;
+    border-bottom-color:dodgerblue;
 }
