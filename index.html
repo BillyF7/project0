@@ -6,58 +6,51 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>My Webpage</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <title>New York</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-    <script type="text/javascript">
-        $(function () {
-            if (window.location.pathname) {
-                document.getElementById("navLogo").style.color = 'Black';
-            }
-        });
-    </script>
-
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row"> <!--This is the navbar-->
-            <div class="col-2 col-centered" id="firstColumn">
-                <a id="navLogo"href="index.html"><strong>LOGO</strong></a>
+    <div class="container-fluid" id="homePage">
+        <div class="row">
+            <!--This is the navbar-->
+            <div class="col-12" id="firstColumn">
+                <a id="navLogo" href="index.html">New York</a>
             </div>
-            <ul class="col-10" id="secondColumn">
-                <li><a href="pageOne.html" id="pageOne">PageOne</a></li>
-                <li><a href="pageTwo.html" id="pageTwo">PageTwo</a></li>
-                <li><a href="pageThree.html" id="pageThree">PageThree</a></li>
-            </ul>
         </div>
-        <div class="row justify-content-center">
-           <div class="col-8 col-offset-1.5">
-               <div>
-                   <h1 id="title">Hello, World</h1>
-                   <p>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur nisl et nunc malesuada, non fermentum velit ornare. Nam vel lectus non nibh commodo interdum a ac justo. Ut dignissim ipsum ipsum, vitae blandit felis interdum sit amet. Curabitur at facilisis nisi, id consectetur nulla. Maecenas vitae finibus nisl. Curabitur bibendum blandit vehicula. Ut quis mauris ullamcorper, fermentum lectus et, efficitur magna. Morbi tempor euismod congue. Aenean ut ligula sit amet eros iaculis ultrices a et nisi. Donec dolor arcu, hendrerit sed magna non, blandit pellentesque nunc. Nam posuere eros vitae tortor rutrum feugiat.
-                   </p>
-                   <br>
-                   <p>
-                       Nullam venenatis, dui vitae condimentum sagittis, felis elit dignissim lorem, eget pulvinar lectus magna in sapien. Nunc ut convallis ligula. Pellentesque aliquam nec risus et aliquam. Maecenas elementum, mauris a tincidunt viverra, mi enim commodo neque, eget pretium augue mauris vel mi. Nam pulvinar eros ut augue condimentum, vitae placerat felis sodales. Fusce laoreet tincidunt lacus ut sodales. Proin tristique, massa at pulvinar dapibus, turpis sapien commodo purus, non viverra elit turpis non ipsum. Nam gravida pretium est, in gravida sapien fermentum a. Ut venenatis nibh sit amet libero iaculis, et malesuada turpis dictum. Nullam est ipsum, accumsan vel pretium eget, semper at mauris. Suspendisse ut mattis lorem, eget fermentum augue. Integer suscipit orci purus, at venenatis justo eleifend in. Phasellus tortor nulla, volutpat vel placerat at, venenatis non ipsum.
-                   </p>
-                   <br>
-                   <p>
-                       Curabitur et odio vitae metus iaculis pellentesque quis a dui. Pellentesque sit amet porta magna. Quisque dignissim consectetur purus. Duis venenatis felis augue, quis posuere magna euismod quis. Morbi aliquam nunc ex, id tincidunt odio ullamcorper nec. Nunc ultricies feugiat volutpat. Duis mollis a lectus quis varius. Sed et molestie sem. Nullam volutpat nisi sed tempor eleifend. Phasellus et ipsum at nibh pellentesque congue sed et quam. Cras efficitur felis a nisi semper, a egestas felis accumsan. Nullam iaculis blandit diam sed viverra. Aenean quis turpis eget nunc volutpat vulputate sed ac magna. Sed pretium sit amet quam a tempus.
-                   </p>
-                   <br>
-                   <p>
-                       Nam turpis mauris, congue eu dictum id, rhoncus sed justo. Duis mollis felis at sem viverra, in congue nisi facilisis. Etiam lacinia sagittis aliquam. Pellentesque laoreet leo eros. Curabitur luctus finibus finibus. Ut efficitur auctor sagittis. Praesent suscipit odio iaculis tincidunt congue. Sed non sollicitudin neque. Nam non congue urna. Vivamus posuere tellus luctus nunc pellentesque, vulputate malesuada tortor efficitur. Phasellus id tellus ac risus commodo consequat ac a magna. Proin tristique ligula mattis nibh pharetra convallis.
-                   </p>
-                   <br>
-                   <p>
-                       Vestibulum tempor, purus in hendrerit dictum, enim arcu auctor nunc, non luctus augue neque sit amet arcu. Pellentesque et felis tincidunt, pretium turpis molestie, interdum magna. Fusce condimentum fermentum lorem in pharetra. Quisque posuere interdum tellus vel tempor. Morbi at mauris imperdiet, posuere odio eu, iaculis magna. Vivamus scelerisque porta turpis, et auctor ligula aliquet sit amet. Etiam dictum lacus suscipit enim ultrices gravida. Vestibulum fringilla consectetur mi in posuere. Donec eget imperdiet metus. Fusce odio libero, accumsan id ligula vitae, ullamcorper fringilla ligula. Cras laoreet ac arcu id maximus. Duis suscipit, nunc et maximus imperdiet, mi nisl tincidunt nisl, sed accumsan nibh lectus vel dolor. Curabitur euismod mi id velit feugiat rhoncus. Aliquam consequat, risus quis condimentum vehicula, neque nisl porta velit, non varius metus nulla in mauris.
-                   </p>
-               </div>
-           </div>
-        </div>
-    </div> 
+            <div class="row justify-content-center h-100" id="cardRow">
+                <div class="col-3 align-self-center h-75" style="padding-bottom: 3.5%">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-secondary btn-lg btn-block" style="margin-top: 100%">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 align-self-center h-75" style="padding-bottom: 3.5%">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-secondary btn-lg btn-block" style="margin-top: 100%">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 align-self-center h-75" style="padding-bottom: 3.5%">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-secondary btn-lg btn-block" style="margin-top: 100%">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+         
     
 </body>
 </html>

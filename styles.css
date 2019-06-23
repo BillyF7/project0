@@ -1,17 +1,18 @@
+
 p{
     font-size:24px;
 }
 
 #firstColumn {
-    height: 96px;
-    text-align: center;
-    font-size: 64px;
-    background-color: dodgerblue;
-    display:flex;
-    vertical-align:middle;
-    align-items:center;
-    justify-content:center;
+    height: 80px;
+    font-size: 48px;
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #45484d 0%,#333333 100%);
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
     border-bottom: solid 2px;
+    font-family: 'Rubik', sans-serif;
 }
 #secondColumn {
     height: 96px;
@@ -55,4 +56,38 @@ a:hover{
     background-color: white;
     border-bottom: 2px solid;
     border-bottom-color:dodgerblue;
+}
+
+
+
+#navLogo {
+    text-align: left;
+    margin-left: 1.25%;
+    color: ghostwhite;
+}
+
+body {
+    overflow: hidden;
+    background: url(NewYork.jpg);
+    display: flex;
+}
+
+.card {
+    height: 100%;
+    opacity: .95;
+    font-family: 'Rubik', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+h5 {
+    text-align: center;
+    font-size: 225%;
+    font-weight: bold;
+}
+p {
+    font-weight: lighter;
 }
