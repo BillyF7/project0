@@ -68,7 +68,7 @@ a:hover{
 
 body {
     overflow: hidden;
-    background: url(NewYork.jpg);
+    background: url(pictures/NewYork.jpg);
     display: flex;
 }
 
@@ -91,3 +91,4 @@ h5 {
 p {
     font-weight: lighter;
 }
+
