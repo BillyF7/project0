@@ -1,7 +1,13 @@
-function navBarTextColor() {
-    if (window.location.pathname == "project0/index.html") {
-        document.getElementById("navLogo").style.color = 'red';
+$(document).ready(function () {
+
+    var apiCall = 'http://api.openweathermap.org/data/2.5/weather?id=5128581&units=Imperial&appid=a5ae9c03c86ab5460eb6629be470eaee';
+
+    $.getJSON(apiCall, weatherCallback);
+
+    function weatherCallback(weatherData) {
+
+        name = weatherData.main.temp;
     }
-}
-document.getElementById("navBar").innerHTML =
-    "Page path is " + window.location.pathname;
+    $("#tempRow").html("It is currently " + name + " degrees fahrenheit");
+    
+});
